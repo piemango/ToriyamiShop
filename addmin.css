@@ -1,0 +1,165 @@
+.addmin{
+    width: 100vw; height: auto;
+    position: relative;
+    grid-template-rows: 0fr 0fr; row-gap: 5rem;
+    display: grid;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 2rem;
+}
+.base-1{
+    width: 10rem; height: 10rem;
+    position: relative;
+    display: grid;
+    border-radius: 1rem;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+.add-items{
+    width: 8rem; height: 3rem;
+    position: relative;
+    display: grid;
+    border-radius: 1rem;
+    background-color: rgb(0, 64, 255);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.add-items:hover{
+    background-color: rgb(251, 79, 31);
+}
+.add-items p{
+    color: white;
+    position: relative;
+    top: 0.5rem;
+    font-size: 1.5rem;
+}
+.base-2{
+    width: 90vw; height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    row-gap: 2vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+.items{
+    width: 85vw; height: 35rem;
+    position: relative;
+    display: grid;
+    grid-template-rows: 0fr 0fr;
+    row-gap: 2rem;
+}
+.head{
+    width: 85vw; height:2rem;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.item{
+    width: 85vw; height:33rem;
+    position: relative;
+    border-radius: 1rem;
+    display: grid;
+    row-gap: 1rem;
+    background-color: aliceblue;
+    overflow: scroll;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.item-img{
+    width: 75vw; height:5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    column-gap: 1rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.img-items{
+    width: 4rem; height:4rem;
+    position: relative;
+    display: flex;
+    border-radius: 1rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.img-items img{
+    border-radius: 1rem;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+}
+.name-items{
+    width: 47rem; height:3rem;
+    position: relative;
+    display: grid;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: solid 2px black;
+    align-items: center;
+}
+.icon{
+    width: 3rem; height:3rem;
+    position: relative;
+    display: grid;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.icon i{
+    position: relative;
+    display: grid;
+}
+.icon:hover{
+    background-color: rgb(247, 99, 31);
+}
+
+.form{
+    display: grid;
+    position: relative;
+    width: 100vw; height: 100vh;
+    background-color: palevioletred;
+    justify-content: center;
+    align-content: center;
+}
+.form .base-2{
+    width: 35rem; height: 35rem;
+    position: relative;
+    display: grid;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+.it{
+    position: relative;
+    display: grid;
+    grid-template-rows: 0fr 0fr;
+    row-gap: 1rem;
+}
+.form .base-2 form{
+    position: relative;
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
